@@ -388,9 +388,10 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-.jpg") center top no-repeat;
+  background: #f5f8fd url("../img/Frame\ 1.png") center top no-repeat;
   background-size: cover;
   padding-top: 110px;
+  box-shadow: x 4px 6px rgba(17, 13, 13, 0.1);
 }
 
 @media (max-width: 991px) {
@@ -421,8 +422,8 @@ h6 {
   }
 }
 
-#hero .intro-info h2 {
-  color: #413e66;
+#hero h2 {
+  color: #ebebed;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -432,11 +433,45 @@ h6 {
   color: #1bb1dc;
 }
 
-@media (max-width: 991px) {
-  #hero .intro-info h2 {
-    font-size: 34px;
-    margin-bottom: 30px;
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 28px;
   }
+
+  #hero span {
+    font-size: 20px;
+  }
+}
+
+.btn-get-started {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: #fff;
+  color: #1E90FF;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.btn-get-started::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  border: 10px solid #1E90FF;
+  z-index: -1;
+}
+
+.btn-get-started:hover {
+  background-color: #6e6d6d;
 }
 
 #hero .intro-info .btn-get-started,
@@ -453,11 +488,6 @@ h6 {
   color: #fff;
   background: #1bb1dc;
   color: #fff;
-}
-
-#hero .intro-info .btn-get-started:hover,
-#hero .intro-info .btn-services:hover {
-  background: #0a98c0;
 }
 
 /*--------------------------------------------------------------
