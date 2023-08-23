@@ -123,7 +123,7 @@ h6 {
 }
 
 #header .social-links a {
-  color: #555186;
+  color: #08080e;
   transition: 0.3s;
   line-height: 0;
   margin-left: 15px;
@@ -181,7 +181,7 @@ h6 {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
-  color: #413e66;
+  color: #000000;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -197,7 +197,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #1bb1dc;
+  color: #000000;
 }
 
 .navbar .dropdown ul {
@@ -268,7 +268,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #413e66;
+  color: #000000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -325,7 +325,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #413e66;
+  color: #030205;
 }
 
 .navbar-mobile a:hover,
@@ -391,7 +391,7 @@ h6 {
   background: #f5f8fd url("../img/Frame\ 1.png") center top no-repeat;
   background-size: cover;
   padding-top: 110px;
-  box-shadow: x 4px 6px rgba(17, 13, 13, 0.1);
+  box-shadow: x 4px 6px rgba(8, 8, 8, 0.1);
 }
 
 @media (max-width: 991px) {
@@ -449,7 +449,7 @@ h6 {
   margin-top: 20px;
   border: none;
   background-color: #fff;
-  color: #1E90FF;
+  color: #020202;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -466,7 +466,7 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 20%;
-  border: 10px solid #1E90FF;
+  border: 10px solid #060708;
   z-index: -1;
 }
 
@@ -501,7 +501,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 36px;
-  color: #413e66;
+  color: #0b0b0e;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -540,13 +540,13 @@ section {
 }
 
 #about .about-content h2 {
-  color: #413e66;
+  color: #020203;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
 #about .about-content h3 {
-  color: #696592;
+  color: #0a0a0f;
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
@@ -564,7 +564,7 @@ section {
 #about .about-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1bb1dc;
+  color: #040505;
 }
 
 #about .about-img {
@@ -618,7 +618,7 @@ section {
   position: relative;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  box-shadow: 0 10px 29px 0 rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
   height: 100%;
@@ -690,14 +690,14 @@ section {
   font-size: 24px;
   font-weight: 600;
   margin-left: 56px;
-  color: #413e66;
+  color: #09090c;
   margin-bottom: 5px;
 }
 
 #why-us .why-us-content .features p {
   font-size: 16px;
   margin-left: 56px;
-  color: #555186;
+  color: #050408;
 }
 
 #why-us .counters {
